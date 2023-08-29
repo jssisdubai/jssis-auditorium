@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Submission</title>
+    <link rel="stylesheet" href="css/view-styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1 class="view-sub-title">View Submission</h1>
+    <p class="gratitude-msg">Thank you for booking a session at JSSIS Auditorium!</p>
+    <div class="bill-container">
+        <p class="text center">View your session details</p>
+        <hr>
+        <p class="text">Name: <%= formData.name %></p>
+        <p class="text">Event title: <%= formData.title %></p>
+        <p class="text">Date: <%= formData.date %></p>
+        <p class="text">Time Slot: <%= formData.time %></p>
+        <p class="text">Class: <%= formData.class %></p>
+        <p class="text">Section: <%= formData.section %></p>
+        <p class="text">Description: <%= formData.description %></p>
+        <hr>
+    </div>
+    <a href="/" class="bth">Back to Home</a>
+</body>
+</html>

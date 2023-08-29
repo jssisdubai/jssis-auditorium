@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book an auditorium session</title>
+    <link rel="stylesheet" href="css/book-styles.css">
+</head>
+<body>
+    <h1 class="form-title">Book an auditorium session</h1>
+    <div class="form-container">
+        <form action="/submit" method="post">
+            <label for="name" class="form-label">Name:</label>
+            <input type="text" id="name" name="name" class="form-input" required placeholder="Enter your name."><br>
+    
+            <label for="event" class="form-label">Event:</label>
+            <input type="text" id="title" name="title" class="form-input" required placeholder="Enter the event title here."><br>
+    
+            <label for="time" class="form-label">Time:</label>
+            <input type="time" id="time" name="time" required class="form-input" required><br>
+
+            <label for="date" class="form-label">Date:</label>
+            <input type="date" id="date" name="date" required class="form-input" required><br>
+    
+            <label for="class" class="form-label">Class:</label>
+            <input type="number" id="class" name="class" class="form-input" placeholder="Enter class here(if applicable). If class is not applicable, enter '00'."><br>
+    
+            <label for="section" class="form-label">Section:</label>
+            <input type="text" id="section" name="section" class="form-input" placeholder="Enter section here(if applicable). If section is not applicable, enter '-'."><br>
+    
+            <label for="description" class="form-label">Description:</label>
+            <textarea id="description" name="description" rows="4" cols="50" class="form-input" placeholder="Enter any extra details here. For example, important points to note, guests visiting, etc."></textarea><br>
+    
+            <input type="submit" value="Submit" class="form-button">
+        </form>
+    </div>
+</body>
+</html>

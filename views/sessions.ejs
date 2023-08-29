@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Sessions</title>
+    <link rel="stylesheet" href="css/session-styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <h1 class="title">
+                All Sessions
+            </h1>
+        </div>
+        
+        <div class="right">
+            <div class="search-form form" id="search-form">
+                <form action="/sessions" method="get">
+                    <label for="search">Search:</label>
+                    <input type="text" name="search" placeholder="Search by title, date, or time" name="search">
+                    <button type="submit" class="ss-btn">Search</button>
+                </form>
+            </div>
+
+            <div class="filter-form form" id="filter-form">
+                <form action="/sessions" method="get">
+                    <label for="sort_option">Sort by:</label>
+                    <select id="sort_option" name="sort_option">
+                        <option value="date_asc">Date (Ascending)</option>
+                        <option value="date_desc">Date (Descending)</option>
+                        <option value="time_asc">Time (Ascending)</option>
+                        <option value="time_desc">Time (Descending)</option>
+                    </select>
+                    <button type="submit" class="ss-btn">Apply Sort</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Title</th>
+                <th>Date</th>
+                <th>Time Slot</th>
+                <th>Class</th>
+                <th>Section</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <% formData.forEach((data, index) => { %>
+                <tr>
+                    <td><%= data.name %></td>
+                    <td><%= data.title %></td>
+                    <td><%= data.date %></td>
+                    <td><%= data.time %></td>
+                    <td><%= data.class %></td>
+                    <td><%= data.section %></td>
+                    <td><%= data.description %></td>
+                </tr>
+            <% }); %>
+        </tbody>
+    </table>
+    
+    <br>
+    <a href="/" class="link">Back to Home</a>
+</body>
+</html>

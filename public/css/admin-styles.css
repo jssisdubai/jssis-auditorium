@@ -1,0 +1,55 @@
+:root {
+    --primary-color: rgb(127, 158, 60);
+    --secondary-color: rgb(105, 130, 49);
+    --box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  }
+  
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+body {
+    margin: 5rem;
+    background-color: #353535;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+  }
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+.title {
+    margin-bottom: 10px;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid var(--secondary-color);
+    color: black;
+    background-color: #f2f2f2;
+}
+
+th {
+    background-color: var(--primary-color);
+}
+
+.remove-btn {
+    background-color: #9d0208;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+.remove-btn:hover {
+    background-color: #6a040f;
+  }
