@@ -18,6 +18,10 @@ function loadFormSubmissions() {
   return [];
 }
 
+function saveFormSubmissions() {
+  fs.writeFileSync(dataFilePath, JSON.stringify(allFormSubmissions));
+}
+
 app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, 'views', 'index.html'));
 });
