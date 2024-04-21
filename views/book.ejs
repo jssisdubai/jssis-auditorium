@@ -8,19 +8,26 @@
 </head>
 <body>
     <h1 class="form-title">Book an auditorium session</h1>
+    <a href="/sessions" target="_blank">View booked time slots</a>
     <div class="form-container">
-        <form action="/submit" method="post">
+        <form action="/submit" method="post" onsubmit="return validateForm()">
             <label for="name" class="form-label">Name:</label>
             <input type="text" id="name" name="name" class="form-input" required placeholder="Enter your name."><br>
     
             <label for="event" class="form-label">Event:</label>
             <input type="text" id="title" name="title" class="form-input" required placeholder="Enter the event title here."><br>
+
+            <label for="email" class="form-label">Email:</label>
+            <input type="email" id="email" name="email" class="form-input" required placeholder="Enter your email."><br>
     
-            <label for="time" class="form-label">Time:</label>
-            <input type="time" id="time" name="time" required class="form-input" required><br>
+            <label for="start_time" class="form-label">Start Time:</label>
+            <input type="time" id="start_time" name="start_time" required class="form-input"><br>
+            
+            <label for="end_time" class="form-label">End Time:</label>
+            <input type="time" id="end_time" name="end_time" required class="form-input"><br>
 
             <label for="date" class="form-label">Date:</label>
-            <input type="date" id="date" name="date" required class="form-input" required><br>
+            <input type="date" id="date" name="date" required class="form-input"><br>
     
             <label for="class" class="form-label">Class:</label>
             <input type="number" id="class" name="class" class="form-input" placeholder="Enter class here(if applicable). If class is not applicable, enter '00'."><br>
@@ -34,5 +41,39 @@
             <input type="submit" value="Submit" class="form-button">
         </form>
     </div>
+
+    <script>
+        const urlParams = new URLSearchParams(window.location.search);
+        const alertParam = urlParams.get('alert');
+        if (alertParam === 'booked') {
+          alert('Time slot is already booked. Please choose another time.');
+        }
+        document.getElementById('name').value = urlParams.get('name') || '';
+        document.getElementById('title').value = urlParams.get('title') || '';
+        document.getElementById('start_time').value = urlParams.get('start_time') || '';
+        document.getElementById('end_time').value = urlParams.get('end_time') || '';
+        document.getElementById('date').value = urlParams.get('date') || '';
+        document.getElementById('class').value = urlParams.get('class') || '';
+        document.getElementById('section').value = urlParams.get('section') || '';
+        document.getElementById('description').value = urlParams.get('description') || '';
+    function validateForm() {
+        const selectedDate = new Date(document.getElementById('date').value);
+        const startTimeValue = document.getElementById('start_time').value;
+        const [hours, minutes] = startTimeValue.split(':');
+        selectedDate.setHours(hours);
+        selectedDate.setMinutes(minutes);
+        const selectedStartTime = selectedDate;
+        const currentDate = new Date();
+                
+        if (selectedDate < currentDate || selectedStartTime < currentDate) {
+            alert('Please select a date and time in the present or future.');
+            return false;
+        }
+
+        return true; 
+    }
+
+    </script>
+  
 </body>
 </html>
