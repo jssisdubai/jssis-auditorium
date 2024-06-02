@@ -1,9 +1,16 @@
+const GITHUB_USERNAME = 'jssisdubai';
+const GITHUB_TOKEN = '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';
+const GITHUB_EMAIL = 'jssisauditoriumdubai@gmail.com';
+const GMAIL_USER = 'jssisauditoriumdubai@gmail.com';
+const GMAIL_PASS = 'cjoc bvkw xeab ehot';
+
 const express = require('express');
 const app = express();
 const path = require('path');
 const fs = require('fs');
 const nodemailer = require('nodemailer');
 const { validationResult } = require('express-validator');
+const { exec } = require('child_process');
 
 app.set('view engine', 'ejs');
 app.use(express.static(path.join(__dirname, 'public')));
@@ -35,6 +42,25 @@ function loadFormSubmissions() {
 function saveFormSubmissions() {
   try {
     fs.writeFileSync(dataFilePath, JSON.stringify(allFormSubmissions, null, 2));
+
+    // Git commit and push
+
+    const branchName = 'main';
+
+    const gitCommands = `
+      git config --global user.email "${GITHUB_EMAIL}"
+      git config --global user.name "${GITHUB_USERNAME}"
+      git add ${dataFilePath}
+      git commit -m "Update form submissions"
+      git push https://${GITHUB_USERNAME}:${GITHUB_TOKEN}@github.com/${GITHUB_USERNAME}/jssis-auditorium.git HEAD:${branchName}
+    `;
+    exec(gitCommands, (err, stdout, stderr) => {
+      if (err) {
+        console.error('Error executing Git commands:', err.message);
+        return;
+      }
+      console.log('Changes pushed to GitHub:', stdout);
+    });
   } catch (error) {
     console.error('Error saving form submissions:', error.message);
   }
