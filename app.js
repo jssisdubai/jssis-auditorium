@@ -1,8 +1,11 @@
-const GITHUB_USERNAME = 'jssisdubai';
-const GITHUB_TOKEN = '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';
-const GITHUB_EMAIL = 'jssisauditoriumdubai@gmail.com';
-const GMAIL_USER = 'jssisauditoriumdubai@gmail.com';
-const GMAIL_PASS = 'cjoc bvkw xeab ehot';
+const dotenv = require('dotenv');
+dotenv.config();
+
+const GITHUB_USERNAME = process.env.GITHUB_USERNAME;
+const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
+const GITHUB_EMAIL = process.env.GITHUB_EMAIL;
+const GMAIL_USER = process.env.GMAIL_USER;
+const GMAIL_PASS = process.env.GMAIL_PASS;
 
 const express = require('express');
 const app = express();
