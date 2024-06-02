@@ -44,12 +44,15 @@ function saveFormSubmissions() {
     fs.writeFileSync(dataFilePath, JSON.stringify(allFormSubmissions, null, 2));
 
     // Git commit and push
+
+    const branchName = 'main';
+
     const gitCommands = `
       git config --global user.email "${GITHUB_EMAIL}"
       git config --global user.name "${GITHUB_USERNAME}"
       git add ${dataFilePath}
       git commit -m "Update form submissions"
-      git push https://${GITHUB_USERNAME}:${GITHUB_TOKEN}@github.com/${GITHUB_USERNAME}/jssis-auditorium.git
+      git push https://${GITHUB_USERNAME}:${GITHUB_TOKEN}@github.com/${GITHUB_USERNAME}/jssis-auditorium.git HEAD:${branchName}
     `;
     exec(gitCommands, (err, stdout, stderr) => {
       if (err) {
