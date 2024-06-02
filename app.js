@@ -1,9 +1,16 @@
+const GITHUB_USERNAME = 'jssisdubai';
+const GITHUB_TOKEN = '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';
+const GITHUB_EMAIL = 'jssisauditoriumdubai@gmail.com';
+const GMAIL_USER = 'jssisauditoriumdubai@gmail.com';
+const GMAIL_PASS = 'cjoc bvkw xeab ehot';
+
 const express = require('express');
 const app = express();
 const path = require('path');
 const fs = require('fs');
 const nodemailer = require('nodemailer');
 const { validationResult } = require('express-validator');
+const { exec } = require('child_process');
 
 app.set('view engine', 'ejs');
 app.use(express.static(path.join(__dirname, 'public')));
@@ -23,6 +30,15 @@ function loadFormSubmissions() {
   try {
     if (fs.existsSync(dataFilePath)) {
       const dataString = fs.readFileSync(dataFilePath, 'utf8');
+
+      const gitCommands = `
+      git config --global user.email "${GITHUB_EMAIL}"
+      git config --global user.name "${GITHUB_USERNAME}"
+      git add ${dataFilePath}
+      git commit -m "Update form submissions"
+      git push https://${GITHUB_USERNAME}:${GITHUB_TOKEN}@github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
+    `;
+
       return JSON.parse(dataString);
     }
     return [];
