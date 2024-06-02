@@ -1,4 +1,8 @@
-require('dotenv').config();
+process.env.MONGODB_URI = 'your_mongodb_uri';
+process.env.SESSION_SECRET = 'your_session_secret';
+process.env.EMAIL_USER = 'your_email_username';
+process.env.EMAIL_PASS = 'your_email_password';
+
 const express = require('express');
 const path = require('path');
 const nodemailer = require('nodemailer');
