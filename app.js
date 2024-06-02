@@ -8,14 +8,22 @@ const path = require('path');
 const nodemailer = require('nodemailer');
 const { validationResult } = require('express-validator');
 const session = require('express-session');
+const MongoStore = require('connect-mongo')(session);
 const mongoose = require('mongoose');
+
+app.use(session({
+  secret: process.env.SESSION_SECRET,
+  resave: false,
+  saveUninitialized: true,
+  store: new MongoStore({ mongooseConnection: mongoose.connection })
+}));
 
 // Debug: Print MongoDB URI and SESSION_SECRET
 console.log('MongoDB URI:', process.env.MONGODB_URI);
 console.log('Session Secret:', process.env.SESSION_SECRET);
 
 // Connect to MongoDB
-mongoose.connect(process.env.MONGODB_URI, { useNewUrlParser: true, useUnifiedTopology: true })
+mongoose.connect(process.env.MONGODB_URI, { useNewUrlParser: true, useUnifiedTopology: true, debug: true })
   .then(() => console.log('Connected to MongoDB'))
   .catch(err => console.error('Error connecting to MongoDB:', err.message));
 
