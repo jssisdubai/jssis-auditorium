@@ -1,43 +1,54 @@
+require('dotenv').config();
 const express = require('express');
-const app = express();
 const path = require('path');
-const fs = require('fs');
 const nodemailer = require('nodemailer');
 const { validationResult } = require('express-validator');
+const session = require('express-session');
+const mongoose = require('mongoose');
 
+// Debug: Print MongoDB URI and SESSION_SECRET
+console.log('MongoDB URI:', process.env.MONGODB_URI);
+console.log('Session Secret:', process.env.SESSION_SECRET);
+
+// Connect to MongoDB
+mongoose.connect(process.env.MONGODB_URI, { useNewUrlParser: true, useUnifiedTopology: true })
+  .then(() => console.log('Connected to MongoDB'))
+  .catch(err => console.error('Error connecting to MongoDB:', err.message));
+
+// Define a schema and model for form submissions
+const formSubmissionSchema = new mongoose.Schema({
+  name: String,
+  title: String,
+  date: String,
+  start_time: String,
+  end_time: String,
+  class: String,
+  section: String,
+  description: String,
+  email: String,
+  duration: Number
+});
+
+const FormSubmission = mongoose.model('FormSubmission', formSubmissionSchema);
+
+const app = express();
 app.set('view engine', 'ejs');
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.urlencoded({ extended: true }));
 
-const dataFilePath = path.join(__dirname, 'data', 'formSubmissions.json');
-let allFormSubmissions = loadFormSubmissions();
-
-function loadFormSubmissions() {
-  try {
-    if (fs.existsSync(dataFilePath)) {
-      const dataString = fs.readFileSync(dataFilePath, 'utf8');
-      return JSON.parse(dataString);
-    }
-    return [];
-  } catch (error) {
-    console.error('Error loading form submissions:', error.message);
-    return [];
-  }
-}
-
-function saveFormSubmissions() {
-  try {
-    fs.writeFileSync(dataFilePath, JSON.stringify(allFormSubmissions));
-  } catch (error) {
-    console.error('Error saving form submissions:', error.message);
-  }
-}
+// Configure session middleware
+app.use(session({
+  secret: process.env.SESSION_SECRET || 'yourSecretKey',
+  resave: false,
+  saveUninitialized: true,
+  cookie: { secure: false } // Set secure: true if using HTTPS
+}));
 
 const transporter = nodemailer.createTransport({
   service: 'Gmail',
   auth: {
-    user: "jssisauditoriumdubai@gmail.com",
-    pass: "cjoc bvkw xeab ehot",
+    user: process.env.EMAIL_USER,
+    pass: process.env.EMAIL_PASS,
   },
 });
 
@@ -45,7 +56,7 @@ app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, 'views', 'index.html'));
 });
 
-app.post('/submit', (req, res) => {
+app.post('/submit', async (req, res) => {
   const formData = req.body;
 
   const errors = validationResult(req);
@@ -70,26 +81,23 @@ app.post('/submit', (req, res) => {
 
   const duration = (endDateTime - startDateTime) / (1000 * 60);
 
-  const isSlotBooked = allFormSubmissions.some((booking) => {
-    const bookedStartDateTime = new Date(`${booking.date}T${booking.start_time}`);
-    const bookedEndDateTime = new Date(`${booking.date}T${booking.end_time}`);
-
-    return (
-      (startDateTime >= bookedStartDateTime && startDateTime < bookedEndDateTime) ||
-      (endDateTime > bookedStartDateTime && endDateTime <= bookedEndDateTime) ||
-      (startDateTime <= bookedStartDateTime && endDateTime >= bookedEndDateTime)
-    );
+  const isSlotBooked = await FormSubmission.exists({
+    date: formData.date,
+    $or: [
+      { start_time: { $lt: formData.end_time, $gte: formData.start_time } },
+      { end_time: { $gt: formData.start_time, $lte: formData.end_time } },
+      { start_time: { $lte: formData.start_time }, end_time: { $gte: formData.end_time } }
+    ]
   });
 
   if (isSlotBooked) {
     return res.redirect(`/book?name=${encodeURIComponent(formData.name)}&title=${encodeURIComponent(formData.title)}&start_time=${encodeURIComponent(formData.start_time)}&end_time=${encodeURIComponent(formData.end_time)}&date=${encodeURIComponent(formData.date)}&class=${encodeURIComponent(formData.class)}&section=${encodeURIComponent(formData.section)}&description=${encodeURIComponent(formData.description)}&alert=booked`);
   } else {
     formData.duration = duration;
-    allFormSubmissions.push(formData);
-    saveFormSubmissions();
+    await FormSubmission.create(formData);
 
     const mailOptions = {
-      from: "jssisauditoriumdubai@gmail.com",
+      from: process.env.EMAIL_USER,
       to: formData.email,
       subject: 'Auditorium Booking Confirmation - JSS International School',
       text: `Welcome, ${formData.name}. \nBelow are the details of the auditorium session you booked:\n\nEvent: ${formData.title}\nStart Time: ${formData.start_time}\nEnd Time: ${formData.end_time}\nDate: ${formData.date}\nClass: ${formData.class}\nSection: ${formData.section}\nDescription: ${formData.description}\nDuration: ${duration} minutes`,
@@ -103,22 +111,26 @@ app.post('/submit', (req, res) => {
       }
     });
 
+    req.session.formData = formData;
+
     res.render('view', { formData });
   }
 });
 
-app.post('/admin/remove/:index', (req, res) => {
+app.post('/admin/remove/:index', async (req, res) => {
   const index = parseInt(req.params.index);
 
-  if (isNaN(index) || index < 0 || index >= allFormSubmissions.length) {
+  const allSubmissions = await FormSubmission.find().exec();
+  if (isNaN(index) || index < 0 || index >= allSubmissions.length) {
     return res.status(400).send('Invalid submission index');
   }
-  allFormSubmissions.splice(index, 1);
-  saveFormSubmissions();
+  const submissionToRemove = allSubmissions[index];
+  await FormSubmission.findByIdAndRemove(submissionToRemove._id).exec();
   res.redirect('/admin');
 });
 
-app.get('/admin', (req, res) => {
+app.get('/admin', async (req, res) => {
+  const allFormSubmissions = await FormSubmission.find().exec();
   res.render('admin', { formData: allFormSubmissions });
 });
 
@@ -126,8 +138,8 @@ app.get('/book', (req, res) => {
   res.render('book');
 });
 
-app.get('/sessions', (req, res) => {
-  let filteredSessions = [...allFormSubmissions];
+app.get('/sessions', async (req, res) => {
+  let filteredSessions = await FormSubmission.find().exec();
 
   const { sort_option, search } = req.query;
 
