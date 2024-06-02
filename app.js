@@ -45,11 +45,11 @@ function saveFormSubmissions() {
 
     // Git commit and push
     const gitCommands = `
-      git config --global user.email "${process.env.GITHUB_EMAIL}"
-      git config --global user.name "${process.env.GITHUB_USERNAME}"
+      git config --global user.email "${GITHUB_EMAIL}"
+      git config --global user.name "${GITHUB_USERNAME}"
       git add ${dataFilePath}
       git commit -m "Update form submissions"
-      git push https://${process.env.GITHUB_USERNAME}:${process.env.GITHUB_TOKEN}@github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
+      git push https://${GITHUB_USERNAME}:${GITHUB_TOKEN}@github.com/${GITHUB_USERNAME}/jssis-auditorium.git
     `;
     exec(gitCommands, (err, stdout, stderr) => {
       if (err) {
