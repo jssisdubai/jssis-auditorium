@@ -1,7 +1,7 @@
-process.env.MONGODB_URI = 'your_mongodb_uri';
-process.env.SESSION_SECRET = 'your_session_secret';
-process.env.EMAIL_USER = 'your_email_username';
-process.env.EMAIL_PASS = 'your_email_password';
+process.env.MONGODB_URI = 'mongodb+srv://jssisauditorium:jssisauditoriumaccesskey@jssis-auditorium.rn8pmts.mongodb.net/';
+process.env.SESSION_SECRET = 'tuF9IGFbSKb2oMWvdzaHfJDtNPRWDhHBA474Yvzfy/U=';
+process.env.EMAIL_USER = 'jssisauditoriumdubai@gmail.com';
+process.env.EMAIL_PASS = 'cjoc bvkw xeab ehot';
 
 const express = require('express');
 const path = require('path');
