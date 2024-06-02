@@ -1,5 +1,5 @@
 const GITHUB_USERNAME = 'jssisdubai';
-const GITHUB_TOKEN = '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';
+const GITHUB_TOKEN = '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';
 const GITHUB_EMAIL = 'jssisauditoriumdubai@gmail.com';
 const GMAIL_USER = 'jssisauditoriumdubai@gmail.com';
 const GMAIL_PASS = 'cjoc bvkw xeab ehot';
