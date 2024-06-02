@@ -30,15 +30,6 @@ function loadFormSubmissions() {
   try {
     if (fs.existsSync(dataFilePath)) {
       const dataString = fs.readFileSync(dataFilePath, 'utf8');
-
-      const gitCommands = `
-      git config --global user.email "${GITHUB_EMAIL}"
-      git config --global user.name "${GITHUB_USERNAME}"
-      git add ${dataFilePath}
-      git commit -m "Update form submissions"
-      git push https://${GITHUB_USERNAME}:${GITHUB_TOKEN}@github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
-    `;
-
       return JSON.parse(dataString);
     }
     return [];
@@ -51,6 +42,22 @@ function loadFormSubmissions() {
 function saveFormSubmissions() {
   try {
     fs.writeFileSync(dataFilePath, JSON.stringify(allFormSubmissions, null, 2));
+
+    // Git commit and push
+    const gitCommands = `
+      git config --global user.email "${process.env.GITHUB_EMAIL}"
+      git config --global user.name "${process.env.GITHUB_USERNAME}"
+      git add ${dataFilePath}
+      git commit -m "Update form submissions"
+      git push https://${process.env.GITHUB_USERNAME}:${process.env.GITHUB_TOKEN}@github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
+    `;
+    exec(gitCommands, (err, stdout, stderr) => {
+      if (err) {
+        console.error('Error executing Git commands:', err.message);
+        return;
+      }
+      console.log('Changes pushed to GitHub:', stdout);
+    });
   } catch (error) {
     console.error('Error saving form submissions:', error.message);
   }
