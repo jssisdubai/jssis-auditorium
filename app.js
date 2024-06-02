@@ -42,10 +42,9 @@ app.use(express.urlencoded({ extended: true }));
 
 // Configure session middleware
 app.use(session({
-  secret: process.env.SESSION_SECRET || 'yourSecretKey',
+  secret: process.env.SESSION_SECRET,
   resave: false,
-  saveUninitialized: true,
-  cookie: { secure: false } // Set secure: true if using HTTPS
+  saveUninitialized: true
 }));
 
 const transporter = nodemailer.createTransport({
