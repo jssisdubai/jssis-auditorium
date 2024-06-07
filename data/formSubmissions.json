@@ -46,5 +46,17 @@
     "section": "",
     "description": "Request for mick and projector. ",
     "duration": 30
+  },
+  {
+    "name": "Dr. Bhavna Sharma",
+    "title": "Clash at the Cineplex",
+    "email": "dr.bhavna2023@jssisdubai.com",
+    "start_time": "09:30",
+    "end_time": "11:30",
+    "date": "2024-06-14",
+    "class": "250",
+    "section": "All sections",
+    "description": "",
+    "duration": 120
   }
 ]
