@@ -58,5 +58,17 @@
     "section": "All sections",
     "description": "",
     "duration": 120
+  },
+  {
+    "name": "Khairun Nessa",
+    "title": "Hajj assembly practice",
+    "email": "khairunnisa756@gmail.com",
+    "start_time": "08:40",
+    "end_time": "09:20",
+    "date": "2024-06-11",
+    "class": "2",
+    "section": "2",
+    "description": "2 Mikes, PPT ",
+    "duration": 40
   }
 ]
