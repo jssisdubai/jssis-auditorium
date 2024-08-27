@@ -106,5 +106,17 @@
     "section": "H",
     "description": "",
     "duration": 40
+  },
+  {
+    "name": "BLINDA",
+    "title": "Primary assembly",
+    "email": "blinda@jssisdubai.com",
+    "start_time": "07:32",
+    "end_time": "08:32",
+    "date": "2024-08-28",
+    "class": "3",
+    "section": "",
+    "description": "Primary regular assembly",
+    "duration": 60
   }
 ]
