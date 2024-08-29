@@ -190,5 +190,17 @@
     "section": "KINDERGARTEN ",
     "description": "",
     "duration": 120
+  },
+  {
+    "name": "Martina Nathan",
+    "title": "Doctor sessions ",
+    "email": "martina2023@jssisdubai.com",
+    "start_time": "09:20",
+    "end_time": "10:20",
+    "date": "2024-09-13",
+    "class": "",
+    "section": "Grade 1 and 2",
+    "description": "Doctor's session for health and safety tips, first aid \r\nRequirement- 2 mics , AC turned on , and a projector \r\n",
+    "duration": 60
   }
 ]
