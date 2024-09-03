@@ -226,5 +226,17 @@
     "section": "F",
     "description": "",
     "duration": 25
+  },
+  {
+    "name": "Blinda",
+    "title": "Teachers day assembly",
+    "email": "blinda@jssisdubai.com",
+    "start_time": "07:35",
+    "end_time": "08:30",
+    "date": "2024-09-04",
+    "class": "3",
+    "section": "All",
+    "description": "Primary teachers day assembly",
+    "duration": 55
   }
 ]
