@@ -286,5 +286,17 @@
     "section": "",
     "description": "Kg2 assembly",
     "duration": 90
+  },
+  {
+    "name": "Hindi primary ",
+    "title": "Hindi Diwas ",
+    "email": "jyotik2021@jssis.com",
+    "start_time": "07:45",
+    "end_time": "08:45",
+    "date": "2024-09-10",
+    "class": "12",
+    "section": "",
+    "description": "For Hindi Diwas assembly practice scheduled on Thursday 12/9/24",
+    "duration": 60
   }
 ]
