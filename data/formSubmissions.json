@@ -442,5 +442,17 @@
     "section": "B",
     "description": "Assembly practice 2B",
     "duration": 40
+  },
+  {
+    "name": "Anju thomas",
+    "title": "Assembly practice ",
+    "email": "mala2023@jssisdubai.com",
+    "start_time": "08:40",
+    "end_time": "09:10",
+    "date": "2024-10-02",
+    "class": "2",
+    "section": "B",
+    "description": "Assembly practice",
+    "duration": 30
   }
 ]
