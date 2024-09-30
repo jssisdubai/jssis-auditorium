@@ -490,5 +490,17 @@
     "section": "All sections grade 3 to 5",
     "description": "",
     "duration": 105
+  },
+  {
+    "name": "Martina ",
+    "title": "Grade 1 assembly ",
+    "email": "martina2023@jssisdubai.com",
+    "start_time": "07:30",
+    "end_time": "08:30",
+    "date": "2024-10-10",
+    "class": "",
+    "section": "",
+    "description": "For assembly required 2 mics, projector, and AC switched on ",
+    "duration": 60
   }
 ]
