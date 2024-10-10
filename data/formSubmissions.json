@@ -550,5 +550,17 @@
     "section": "A-L",
     "description": "Level up and Achieve 3000 prize distribution ",
     "duration": 50
+  },
+  {
+    "name": "Shabreen",
+    "title": "Grade 2A practice",
+    "email": "mala2023@jssisdubai.com",
+    "start_time": "09:15",
+    "end_time": "09:50",
+    "date": "2024-10-14",
+    "class": "2",
+    "section": "A",
+    "description": "Assembly practice",
+    "duration": 35
   }
 ]
