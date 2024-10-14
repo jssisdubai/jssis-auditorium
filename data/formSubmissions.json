@@ -610,5 +610,17 @@
     "section": "A",
     "description": "Assembly practice ",
     "duration": 60
+  },
+  {
+    "name": "Shabreen",
+    "title": "Assembly practice ",
+    "email": "mala2023@jssisdubai.com",
+    "start_time": "11:10",
+    "end_time": "11:45",
+    "date": "2024-10-18",
+    "class": "2",
+    "section": "A",
+    "description": "Assembly practice ",
+    "duration": 35
   }
 ]
