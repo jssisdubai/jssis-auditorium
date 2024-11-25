@@ -646,5 +646,17 @@
     "section": "Middle School",
     "description": "Middle School assembly on the 14th of November,from 9.30 am to 10:30 a.m. The details have been entered in the register. Please arrange the necessary microphones, internet access, and a podium for the students on stage.",
     "duration": 60
+  },
+  {
+    "name": "Kavitha M S",
+    "title": "Middle School Talent Day",
+    "email": "kavitha2021@jssisdubai.com",
+    "start_time": "08:30",
+    "end_time": "11:30",
+    "date": "2024-12-10",
+    "class": "",
+    "section": "Middle School ",
+    "description": "Talent Day",
+    "duration": 180
   }
 ]
