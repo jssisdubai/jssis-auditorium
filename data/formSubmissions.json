@@ -682,5 +682,17 @@
     "section": "KG",
     "description": "PreKG  Annual Concert",
     "duration": 270
+  },
+  {
+    "name": "Samira",
+    "title": "Annaul concert",
+    "email": "prekgh@jssisdubai.com",
+    "start_time": "07:00",
+    "end_time": "11:30",
+    "date": "2025-02-19",
+    "class": "",
+    "section": "KG",
+    "description": "KG1 Annual Concert",
+    "duration": 270
   }
 ]
