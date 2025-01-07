@@ -670,5 +670,17 @@
     "section": "Middle School",
     "description": "Talent Day of middle school",
     "duration": 180
+  },
+  {
+    "name": "Samira",
+    "title": "Annaul concert",
+    "email": "prekgh@jssisdubai.com",
+    "start_time": "07:00",
+    "end_time": "11:30",
+    "date": "2025-02-12",
+    "class": "",
+    "section": "KG",
+    "description": "PreKG  Annual Concert",
+    "duration": 270
   }
 ]
