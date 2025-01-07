@@ -694,5 +694,17 @@
     "section": "KG",
     "description": "KG1 Annual Concert",
     "duration": 270
+  },
+  {
+    "name": "Samira",
+    "title": "Annual Concert ",
+    "email": "prekgh@jssisdubai.com",
+    "start_time": "07:00",
+    "end_time": "11:30",
+    "date": "2025-02-25",
+    "class": "",
+    "section": "KG",
+    "description": "KG2  Annual Concert ",
+    "duration": 270
   }
 ]
