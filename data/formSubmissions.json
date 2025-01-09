@@ -766,5 +766,17 @@
     "section": "All",
     "description": "Grade 1 Choral Recitation competition ",
     "duration": 90
+  },
+  {
+    "name": "Syeda Zainab ",
+    "title": "Grade 1 and 2 Assembly ",
+    "email": "syeda2021@jssisdubai.com",
+    "start_time": "07:51",
+    "end_time": "08:30",
+    "date": "2025-01-16",
+    "class": "2",
+    "section": "All ",
+    "description": "Primary assembly ",
+    "duration": 39
   }
 ]
