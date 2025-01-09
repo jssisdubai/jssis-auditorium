@@ -754,5 +754,17 @@
     "section": "14",
     "description": "KG1 concert run through practice. ",
     "duration": 240
+  },
+  {
+    "name": "Sabah Surve ",
+    "title": "Choral Recitation ",
+    "email": "sabah2021@jssisdubai.com",
+    "start_time": "10:00",
+    "end_time": "11:30",
+    "date": "2025-01-23",
+    "class": "1",
+    "section": "All",
+    "description": "Grade 1 Choral Recitation competition ",
+    "duration": 90
   }
 ]
