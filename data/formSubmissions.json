@@ -802,5 +802,17 @@
     "section": "All",
     "description": "Grade 1 and 2 assembly",
     "duration": 30
+  },
+  {
+    "name": "Kavitha M S",
+    "title": "Middle school assembly",
+    "email": "kavitha2021@jssisdubai.com",
+    "start_time": "07:40",
+    "end_time": "08:00",
+    "date": "2025-01-14",
+    "class": "678",
+    "section": "Middle School",
+    "description": "",
+    "duration": 20
   }
 ]
