@@ -826,5 +826,17 @@
     "section": "Middle School",
     "description": "Assembly and Science Quiz",
     "duration": 110
+  },
+  {
+    "name": "Ms Kaushee Azad",
+    "title": "Assembly practice",
+    "email": "kaushee2024@jssisdubai.com",
+    "start_time": "00:00",
+    "end_time": "00:40",
+    "date": "2025-01-14",
+    "class": "2",
+    "section": "J",
+    "description": "We have to practice Assembly for grade 2J we have our assembly on 16th Jan",
+    "duration": 40
   }
 ]
