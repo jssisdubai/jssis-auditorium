@@ -898,5 +898,17 @@
     "section": "All( A to L)",
     "description": "Choral Recitation competition ",
     "duration": 120
+  },
+  {
+    "name": "Kavitha ",
+    "title": "Middle School  Assembly",
+    "email": "kavitha2021@jssisdubai.com",
+    "start_time": "07:35",
+    "end_time": "08:00",
+    "date": "2025-01-21",
+    "class": "678",
+    "section": "Middle School",
+    "description": "",
+    "duration": 25
   }
 ]
