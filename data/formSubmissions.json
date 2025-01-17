@@ -238,5 +238,17 @@
     "section": "Middle School",
     "description": "",
     "duration": 25
+  },
+  {
+    "name": "Kavitha M S",
+    "title": "Middle School Drama Competition",
+    "email": "kavitha2021@jssisdubai.com",
+    "start_time": "08:00",
+    "end_time": "02:00",
+    "date": "2025-02-05",
+    "class": "678",
+    "section": "Middle school",
+    "description": "",
+    "duration": -360
   }
 ]
