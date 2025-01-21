@@ -250,5 +250,17 @@
     "section": "Middle school",
     "description": "",
     "duration": -360
+  },
+  {
+    "name": "Kavitha M S ",
+    "title": "Middle School Assembly ",
+    "email": "kavitha2021@jssisdubai.com",
+    "start_time": "07:40",
+    "end_time": "08:00",
+    "date": "2025-01-28",
+    "class": "678",
+    "section": "Middle School ",
+    "description": "",
+    "duration": 20
   }
 ]
