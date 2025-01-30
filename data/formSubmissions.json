@@ -286,5 +286,17 @@
     "section": "A to L",
     "description": "I would like to book the auditorium for grade 2, Choral recitation practice from 27th Jan to 5th feb'2025.",
     "duration": 60
+  },
+  {
+    "name": "Syeda Zainab Fathima",
+    "title": "Brainiacs -Quiz Competition ",
+    "email": "syeda2021@jssisdubai.com",
+    "start_time": "09:30",
+    "end_time": "12:00",
+    "date": "2025-02-20",
+    "class": "1",
+    "section": "All sections",
+    "description": "Final Quiz Competition of Grade 1 .",
+    "duration": 150
   }
 ]
