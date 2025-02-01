@@ -310,5 +310,17 @@
     "section": "Middle School",
     "description": "",
     "duration": 60
+  },
+  {
+    "name": "K",
+    "title": "Middle School English Play",
+    "email": "kavitha2021@jssisdubai.com",
+    "start_time": "09:30",
+    "end_time": "02:00",
+    "date": "2025-02-05",
+    "class": "678",
+    "section": "Middle",
+    "description": "",
+    "duration": -450
   }
 ]
