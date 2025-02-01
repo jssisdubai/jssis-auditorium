@@ -298,5 +298,17 @@
     "section": "All sections",
     "description": "Final Quiz Competition of Grade 1 .",
     "duration": 150
+  },
+  {
+    "name": "Kavitha ",
+    "title": "Svience assembly",
+    "email": "kavitha2021@jssisdubai.com",
+    "start_time": "01:00",
+    "end_time": "02:00",
+    "date": "2025-02-20",
+    "class": "678",
+    "section": "Middle School",
+    "description": "",
+    "duration": 60
   }
 ]
