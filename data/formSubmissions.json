@@ -346,5 +346,17 @@
     "section": "Middle",
     "description": "",
     "duration": -600
+  },
+  {
+    "name": "Sabah Surve ",
+    "title": "Assembly ",
+    "email": "sabah2021@jssisdubai.com",
+    "start_time": "07:30",
+    "end_time": "08:30",
+    "date": "2025-02-06",
+    "class": "1",
+    "section": "All( A to L)",
+    "description": "",
+    "duration": 60
   }
 ]
