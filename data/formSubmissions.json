@@ -370,5 +370,17 @@
     "section": "A-L",
     "description": "",
     "duration": 60
+  },
+  {
+    "name": "Khairun Nessa",
+    "title": "Ramadan assembly",
+    "email": "khairunnisa756@gmail.com",
+    "start_time": "11:45",
+    "end_time": "12:45",
+    "date": "2025-02-26",
+    "class": "1",
+    "section": "A-L",
+    "description": "Run through for the Ramadan assembly",
+    "duration": 60
   }
 ]
