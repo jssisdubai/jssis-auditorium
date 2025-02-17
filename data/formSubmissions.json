@@ -418,5 +418,17 @@
     "section": "G , H",
     "description": "Assembly",
     "duration": 60
+  },
+  {
+    "name": "Narjis Mondol",
+    "title": "Grade 4 skit ",
+    "email": "narjis2024@jssisdubai.com",
+    "start_time": "08:00",
+    "end_time": "13:00",
+    "date": "2025-03-18",
+    "class": "4",
+    "section": "",
+    "description": "Grade 4 intersection skit ",
+    "duration": 300
   }
 ]
