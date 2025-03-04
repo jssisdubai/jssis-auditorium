@@ -478,5 +478,17 @@
     "section": "A to L",
     "description": "Spellathon",
     "duration": 140
+  },
+  {
+    "name": "Divya Jipson",
+    "title": "Read aloud/ grade 3",
+    "email": "divya2023@jssisdubai.com",
+    "start_time": "08:00",
+    "end_time": "12:00",
+    "date": "2025-03-11",
+    "class": "3",
+    "section": "All sections",
+    "description": "",
+    "duration": 240
   }
 ]
