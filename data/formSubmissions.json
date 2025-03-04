@@ -466,5 +466,17 @@
     "section": "4 and 5 (only girls)",
     "description": "AC to be switched on. IT support required. ",
     "duration": 35
+  },
+  {
+    "name": "Shahana ",
+    "title": "Spellathon",
+    "email": "shahana2023@jssisdubai.com",
+    "start_time": "07:30",
+    "end_time": "09:50",
+    "date": "2025-03-10",
+    "class": "1",
+    "section": "A to L",
+    "description": "Spellathon",
+    "duration": 140
   }
 ]
