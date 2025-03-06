@@ -502,5 +502,17 @@
     "section": "A to L",
     "description": "Level Up prize distribution ",
     "duration": 90
+  },
+  {
+    "name": "Divya",
+    "title": "Read Aloud",
+    "email": "divya2023@jssisdubai.com",
+    "start_time": "08:00",
+    "end_time": "12:00",
+    "date": "2025-03-13",
+    "class": "3",
+    "section": "All sections",
+    "description": "",
+    "duration": 240
   }
 ]
