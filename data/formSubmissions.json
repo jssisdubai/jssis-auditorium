@@ -490,5 +490,17 @@
     "section": "All sections",
     "description": "",
     "duration": 240
+  },
+  {
+    "name": "Shahana Bano",
+    "title": "Prize Distribution ",
+    "email": "shahana2023@jssisdubai.com",
+    "start_time": "10:00",
+    "end_time": "11:30",
+    "date": "2025-03-12",
+    "class": "1",
+    "section": "A to L",
+    "description": "Level Up prize distribution ",
+    "duration": 90
   }
 ]
