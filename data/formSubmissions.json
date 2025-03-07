@@ -514,5 +514,17 @@
     "section": "All sections",
     "description": "",
     "duration": 240
+  },
+  {
+    "name": "Samira",
+    "title": "Kindergarten Orientaion",
+    "email": "prekgh@jssisdubai.com",
+    "start_time": "08:00",
+    "end_time": "11:00",
+    "date": "2025-03-20",
+    "class": "35",
+    "section": "KG",
+    "description": "Kindergarten parent orientation \r\nParents will attend the orientation. ",
+    "duration": 180
   }
 ]
