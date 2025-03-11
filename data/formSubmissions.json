@@ -526,5 +526,17 @@
     "section": "KG",
     "description": "Kindergarten parent orientation \r\nParents will attend the orientation. ",
     "duration": 180
+  },
+  {
+    "name": "Divya Jipson",
+    "title": "Read Aloud",
+    "email": "Divya2023@jssisdubai.com",
+    "start_time": "08:00",
+    "end_time": "12:00",
+    "date": "2025-03-14",
+    "class": "3",
+    "section": "All Sections",
+    "description": "Read Aloud",
+    "duration": 240
   }
 ]
