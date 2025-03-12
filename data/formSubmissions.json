@@ -550,5 +550,17 @@
     "section": "KG",
     "description": "Kindergarten parent orientation ",
     "duration": 150
+  },
+  {
+    "name": "Shahana",
+    "title": "Prize Distribution ",
+    "email": "shahana@jssisdubai.com",
+    "start_time": "11:45",
+    "end_time": "13:00",
+    "date": "2025-03-17",
+    "class": "1",
+    "section": "A to L",
+    "description": "Prize",
+    "duration": 75
   }
 ]
