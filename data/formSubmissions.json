@@ -562,5 +562,17 @@
     "section": "A to L",
     "description": "Prize",
     "duration": 75
+  },
+  {
+    "name": "Samira",
+    "title": "Kindergarten  Assembly",
+    "email": "prekgf@jssisdubai.com",
+    "start_time": "08:30",
+    "end_time": "09:30",
+    "date": "2025-04-17",
+    "class": "00",
+    "section": "KG",
+    "description": "Kindergarten Assembly",
+    "duration": 60
   }
 ]
