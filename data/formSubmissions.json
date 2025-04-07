@@ -742,5 +742,17 @@
     "section": "",
     "description": "Grand Cultural Exchange ",
     "duration": 120
+  },
+  {
+    "name": "Ms. Shruti",
+    "title": "World Heritage day",
+    "email": "shruthithakkar@jssisdubai.com",
+    "start_time": "09:30",
+    "end_time": "11:00",
+    "date": "2025-04-17",
+    "class": "2",
+    "section": "A to L",
+    "description": "Quiz",
+    "duration": 90
   }
 ]
