@@ -754,5 +754,17 @@
     "section": "A to L",
     "description": "Quiz",
     "duration": 90
+  },
+  {
+    "name": "Ms. Vanitha & Ms. Raji",
+    "title": "Class assembly",
+    "email": "vanitha2024@jssisdubai.com",
+    "start_time": "07:40",
+    "end_time": "08:30",
+    "date": "2025-04-24",
+    "class": "2",
+    "section": "D & L",
+    "description": "Class assembly ",
+    "duration": 50
   }
 ]
