@@ -778,5 +778,17 @@
     "section": "I",
     "description": "Assembly",
     "duration": 55
+  },
+  {
+    "name": "Asavari ",
+    "title": "Teachers Asembly",
+    "email": "asavari@jssisdubai.com",
+    "start_time": "09:30",
+    "end_time": "10:30",
+    "date": "2025-04-09",
+    "class": "1",
+    "section": "All section teachers ",
+    "description": "Teachers assembly practice ",
+    "duration": 60
   }
 ]
