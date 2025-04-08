@@ -790,5 +790,17 @@
     "section": "All section teachers ",
     "description": "Teachers assembly practice ",
     "duration": 60
+  },
+  {
+    "name": "Amal Sugirdha ",
+    "title": "Middle School Assembly ",
+    "email": "amal@jssisdubai.com",
+    "start_time": "07:30",
+    "end_time": "08:15",
+    "date": "2025-04-15",
+    "class": "7",
+    "section": "H",
+    "description": "Middle School Assembly ",
+    "duration": 45
   }
 ]
