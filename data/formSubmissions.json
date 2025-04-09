@@ -802,5 +802,17 @@
     "section": "H",
     "description": "Middle School Assembly ",
     "duration": 45
+  },
+  {
+    "name": "Veena ",
+    "title": "PL Book",
+    "email": "veena2024@jssdubai.com",
+    "start_time": "12:00",
+    "end_time": "14:00",
+    "date": "2025-05-07",
+    "class": "6",
+    "section": "G",
+    "description": "",
+    "duration": 120
   }
 ]
