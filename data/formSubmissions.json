@@ -826,5 +826,17 @@
     "section": "ABC",
     "description": "Student Council Campaign Speech",
     "duration": -610
+  },
+  {
+    "name": "Ramachandran",
+    "title": "Student Council Campaign Speech",
+    "email": "Ramachandran2022@jssisdubai.com",
+    "start_time": "12:00",
+    "end_time": "13:50",
+    "date": "2025-04-24",
+    "class": "11",
+    "section": "ABCD",
+    "description": "Student Council Election Campaign Speech Grade 11",
+    "duration": 110
   }
 ]
