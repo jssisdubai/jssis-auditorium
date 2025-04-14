@@ -850,5 +850,17 @@
     "section": "C",
     "description": "Secondary Assembly ",
     "duration": 25
+  },
+  {
+    "name": "Shirin Patrawala",
+    "title": "French Ceremonie",
+    "email": "shirinpatrawala@jssisdubai.com",
+    "start_time": "09:00",
+    "end_time": "10:30",
+    "date": "2025-04-28",
+    "class": "",
+    "section": "",
+    "description": "French Les Ceremonie",
+    "duration": 90
   }
 ]
