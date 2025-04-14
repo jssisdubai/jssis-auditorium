@@ -814,5 +814,17 @@
     "section": "G",
     "description": "",
     "duration": 120
+  },
+  {
+    "name": "Ramachandran",
+    "title": "Student Council Campaign Speech - Grade XII",
+    "email": "ramachandran2022@jssisdubai.com",
+    "start_time": "12:00",
+    "end_time": "01:50",
+    "date": "2025-04-23",
+    "class": "12",
+    "section": "ABC",
+    "description": "Student Council Campaign Speech",
+    "duration": -610
   }
 ]
