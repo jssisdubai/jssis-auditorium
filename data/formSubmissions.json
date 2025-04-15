@@ -862,5 +862,17 @@
     "section": "",
     "description": "French Les Ceremonie",
     "duration": 90
+  },
+  {
+    "name": "Amal Sugirdha",
+    "title": "Middle School Assembly",
+    "email": "amal@jssisdubai.com",
+    "start_time": "07:30",
+    "end_time": "08:00",
+    "date": "2025-04-22",
+    "class": "7",
+    "section": "G",
+    "description": "",
+    "duration": 30
   }
 ]
