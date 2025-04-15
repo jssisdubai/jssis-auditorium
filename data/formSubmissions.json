@@ -874,5 +874,17 @@
     "section": "G",
     "description": "",
     "duration": 30
+  },
+  {
+    "name": "Amal Sugirdha",
+    "title": "Middle School Assembly",
+    "email": "amal@jssisdubai.com",
+    "start_time": "07:30",
+    "end_time": "08:15",
+    "date": "2025-04-29",
+    "class": "7",
+    "section": "F",
+    "description": "",
+    "duration": 45
   }
 ]
