@@ -934,5 +934,17 @@
     "section": "D",
     "description": "",
     "duration": 30
+  },
+  {
+    "name": "Ramachandran",
+    "title": "Secondary Assembly ",
+    "email": "ramachandran2022@jssisdubai.com",
+    "start_time": "07:30",
+    "end_time": "07:55",
+    "date": "2025-04-28",
+    "class": "10",
+    "section": "A",
+    "description": "",
+    "duration": 25
   }
 ]
