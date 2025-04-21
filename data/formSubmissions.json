@@ -946,5 +946,17 @@
     "section": "A",
     "description": "",
     "duration": 25
+  },
+  {
+    "name": "Divya Jipson",
+    "title": "Assembly",
+    "email": "divya2023@jssisdubai.com",
+    "start_time": "07:45",
+    "end_time": "09:00",
+    "date": "2025-04-30",
+    "class": "5",
+    "section": "All ",
+    "description": "Assembly",
+    "duration": 75
   }
 ]
