@@ -982,5 +982,17 @@
     "section": "All",
     "description": "Assembly",
     "duration": 90
+  },
+  {
+    "name": "Mamta Nakra",
+    "title": "Father's Day",
+    "email": "Mamta2024@jssisdubai.com",
+    "start_time": "08:00",
+    "end_time": "10:00",
+    "date": "2025-06-17",
+    "class": "",
+    "section": "Kindergarten ",
+    "description": "Father's Day ",
+    "duration": 120
   }
 ]
