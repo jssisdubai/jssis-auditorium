@@ -970,5 +970,17 @@
     "section": "Few",
     "description": "Assembly ",
     "duration": 90
+  },
+  {
+    "name": "Divya",
+    "title": "Assembly Run Through",
+    "email": "Divya2023@jssisdubai.com",
+    "start_time": "12:00",
+    "end_time": "13:30",
+    "date": "2025-04-29",
+    "class": "5",
+    "section": "All",
+    "description": "Assembly",
+    "duration": 90
   }
 ]
