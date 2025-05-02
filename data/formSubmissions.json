@@ -1090,5 +1090,17 @@
     "section": "B",
     "description": "Class assembly",
     "duration": 40
+  },
+  {
+    "name": "Shahin Desai",
+    "title": "Science E talk",
+    "email": "shahindesai@jssisdubai.com",
+    "start_time": "09:00",
+    "end_time": "11:00",
+    "date": "2025-05-21",
+    "class": "",
+    "section": "Grade 11 & 12",
+    "description": "200chairs required, IT, mike",
+    "duration": 120
   }
 ]
