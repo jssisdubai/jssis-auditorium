@@ -1102,5 +1102,17 @@
     "section": "Grade 11 & 12",
     "description": "200chairs required, IT, mike",
     "duration": 120
+  },
+  {
+    "name": "Sheeja Balachandran",
+    "title": "Expert Talk",
+    "email": "library@jssisdubai.com",
+    "start_time": "11:30",
+    "end_time": "13:30",
+    "date": "2025-05-12",
+    "class": "9101112",
+    "section": "Secondary phase",
+    "description": "Expert talk",
+    "duration": 120
   }
 ]
