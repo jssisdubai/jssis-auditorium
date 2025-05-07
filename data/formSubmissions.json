@@ -1126,5 +1126,17 @@
     "section": "Secondary",
     "description": "Expert Talk",
     "duration": 120
+  },
+  {
+    "name": "Ms.Shruthi",
+    "title": "Culrtural Day",
+    "email": "shruthithakkar@jssisdubai.com",
+    "start_time": "00:00",
+    "end_time": "01:30",
+    "date": "2025-05-21",
+    "class": "",
+    "section": "",
+    "description": "",
+    "duration": 90
   }
 ]
