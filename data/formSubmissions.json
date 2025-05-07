@@ -1114,5 +1114,17 @@
     "section": "Secondary phase",
     "description": "Expert talk",
     "duration": 120
+  },
+  {
+    "name": "Sheeja Balachandran",
+    "title": "Expert Talk",
+    "email": "library@jssisdubai.com",
+    "start_time": "11:30",
+    "end_time": "13:30",
+    "date": "2025-05-13",
+    "class": "12",
+    "section": "Secondary",
+    "description": "Expert Talk",
+    "duration": 120
   }
 ]
