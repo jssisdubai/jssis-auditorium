@@ -1234,5 +1234,17 @@
     "section": "Secondary phase",
     "description": "Expert talk",
     "duration": 150
+  },
+  {
+    "name": "Mala Mahadevan",
+    "title": "Poetry recitation",
+    "email": "mala2023@jssisdubai.com",
+    "start_time": "12:15",
+    "end_time": "13:30",
+    "date": "2025-05-26",
+    "class": "2",
+    "section": "A-L",
+    "description": "",
+    "duration": 75
   }
 ]
