@@ -1258,5 +1258,17 @@
     "section": "A",
     "description": "Practice for the Thursday's assembly",
     "duration": 80
+  },
+  {
+    "name": "Shahidha bhanu",
+    "title": "Assembly practice ",
+    "email": "shahida2025@jssisdubai.com",
+    "start_time": "09:00",
+    "end_time": "10:30",
+    "date": "2025-05-26",
+    "class": "1",
+    "section": "A",
+    "description": "Practice for assembly ",
+    "duration": 90
   }
 ]
