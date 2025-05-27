@@ -1294,5 +1294,17 @@
     "section": "Grade 2(A to L)",
     "description": "I would like to book an auditorium on june 2nd 2025, for the grade2 poetry recitation competition. Thank you.",
     "duration": 60
+  },
+  {
+    "name": "Akhila Harleen",
+    "title": "Finance Frenzy",
+    "email": "harleen2310.dxb@gmail.com",
+    "start_time": "09:00",
+    "end_time": "11:30",
+    "date": "2025-05-29",
+    "class": "4",
+    "section": "Primary ",
+    "description": "Mathematics ",
+    "duration": 150
   }
 ]
