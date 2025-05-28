@@ -1306,5 +1306,17 @@
     "section": "Primary ",
     "description": "Mathematics ",
     "duration": 150
+  },
+  {
+    "name": "Vijayalaxmi",
+    "title": "10C Class Assembly ",
+    "email": "Vijayalaxmi2023@jssisdubai.com",
+    "start_time": "07:30",
+    "end_time": "07:55",
+    "date": "2025-06-02",
+    "class": "10",
+    "section": "C",
+    "description": "Secondary assembly ",
+    "duration": 25
   }
 ]
