@@ -1318,5 +1318,17 @@
     "section": "C",
     "description": "Secondary assembly ",
     "duration": 25
+  },
+  {
+    "name": "Siddiqa",
+    "title": "Assembly practice",
+    "email": "syd_sidda@yahoo.com",
+    "start_time": "09:05",
+    "end_time": "22:25",
+    "date": "2025-06-03",
+    "class": "2",
+    "section": "C",
+    "description": "Assembly practice",
+    "duration": 800
   }
 ]
