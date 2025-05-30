@@ -1354,5 +1354,17 @@
     "section": "C",
     "description": "",
     "duration": 40
+  },
+  {
+    "name": "Siddiqa",
+    "title": "Assembly",
+    "email": "syd_sidda@yahoo.com",
+    "start_time": "11:45",
+    "end_time": "12:45",
+    "date": "2025-06-04",
+    "class": "2",
+    "section": "C",
+    "description": "",
+    "duration": 60
   }
 ]
