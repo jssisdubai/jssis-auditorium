@@ -1378,5 +1378,17 @@
     "section": "",
     "description": "Please keep two mics and a podium ready. ",
     "duration": 40
+  },
+  {
+    "name": "Grade 1",
+    "title": "International Yoga Day",
+    "email": "himani2021@jssisdubai.com",
+    "start_time": "08:00",
+    "end_time": "10:00",
+    "date": "2025-06-16",
+    "class": "12",
+    "section": "A-L",
+    "description": "",
+    "duration": 120
   }
 ]
