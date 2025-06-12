@@ -1402,5 +1402,17 @@
     "section": "A-L",
     "description": "",
     "duration": 60
+  },
+  {
+    "name": "Syeda Zainab ",
+    "title": "Yoga day ",
+    "email": "syeda2021@jssisdubai.com",
+    "start_time": "10:00",
+    "end_time": "11:00",
+    "date": "2025-06-13",
+    "class": "1",
+    "section": "All sections ",
+    "description": "Yoga day celebration ",
+    "duration": 60
   }
 ]
