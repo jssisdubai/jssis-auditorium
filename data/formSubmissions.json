@@ -1390,5 +1390,17 @@
     "section": "A-L",
     "description": "",
     "duration": 120
+  },
+  {
+    "name": "Grade 1",
+    "title": "Fathers Day",
+    "email": "himani2021@jssisdubai.com",
+    "start_time": "10:00",
+    "end_time": "11:00",
+    "date": "2025-06-20",
+    "class": "12",
+    "section": "A-L",
+    "description": "",
+    "duration": 60
   }
 ]
