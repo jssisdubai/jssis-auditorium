@@ -1414,5 +1414,17 @@
     "section": "All sections ",
     "description": "Yoga day celebration ",
     "duration": 60
+  },
+  {
+    "name": "Kavitga MS",
+    "title": "Middle School Assembly",
+    "email": "kavitha2021@jssisdubai.com",
+    "start_time": "07:30",
+    "end_time": "08:00",
+    "date": "2025-08-26",
+    "class": "678",
+    "section": "Middle School",
+    "description": "Regular assembly for middle school",
+    "duration": 30
   }
 ]
