@@ -1426,5 +1426,17 @@
     "section": "Middle School",
     "description": "Regular assembly for middle school",
     "duration": 30
+  },
+  {
+    "name": "Mamta Nakra",
+    "title": "KG 2 Concert",
+    "email": "Mamta2024@jssisdubai.com",
+    "start_time": "08:30",
+    "end_time": "12:00",
+    "date": "2025-10-15",
+    "class": "",
+    "section": "",
+    "description": "KG2 Concert",
+    "duration": 210
   }
 ]
