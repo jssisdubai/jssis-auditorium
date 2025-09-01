@@ -1474,5 +1474,17 @@
     "section": "",
     "description": "KG2 Concert Rehearsals ",
     "duration": 180
+  },
+  {
+    "name": "Jyoti Kori ",
+    "title": "Assembly practice ",
+    "email": "jyotik2021@jssisdubai.com",
+    "start_time": "12:00",
+    "end_time": "13:00",
+    "date": "2025-09-09",
+    "class": "12",
+    "section": "Hindi ",
+    "description": "Hindi  assembly practice ",
+    "duration": 60
   }
 ]
