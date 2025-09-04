@@ -1546,5 +1546,17 @@
     "section": "F",
     "description": "For Grade 2F Assembly practice ",
     "duration": 40
+  },
+  {
+    "name": "Virgina",
+    "title": "Assembly",
+    "email": "virgina2024@jssisdubai.com",
+    "start_time": "10:50",
+    "end_time": "11:30",
+    "date": "2025-09-08",
+    "class": "1",
+    "section": "F",
+    "description": "Assembly Practice",
+    "duration": 40
   }
 ]
