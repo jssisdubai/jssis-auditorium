@@ -1570,5 +1570,17 @@
     "section": "Kindergarten ",
     "description": "UAE Assembly ",
     "duration": 120
+  },
+  {
+    "name": "Virgina",
+    "title": "Assembly practice",
+    "email": "virgina2024@jssis.com",
+    "start_time": "10:50",
+    "end_time": "11:30",
+    "date": "2025-09-09",
+    "class": "1",
+    "section": "F",
+    "description": "Assembly practice",
+    "duration": 40
   }
 ]
