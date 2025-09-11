@@ -1786,5 +1786,17 @@
     "section": "All",
     "description": "",
     "duration": 90
+  },
+  {
+    "name": "Mamta Nakra",
+    "title": "Concert Practice ",
+    "email": "Mamta2024@jssisdubai.com",
+    "start_time": "08:45",
+    "end_time": "10:00",
+    "date": "2025-10-08",
+    "class": "",
+    "section": "KG 2",
+    "description": "Concert Practice ",
+    "duration": 75
   }
 ]
