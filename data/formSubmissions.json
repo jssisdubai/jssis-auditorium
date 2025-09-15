@@ -1882,5 +1882,17 @@
     "section": "G",
     "description": "I would like to book my auditorium for my assembly practice ",
     "duration": -679
+  },
+  {
+    "name": "Lancy ",
+    "title": "Assembly ",
+    "email": "Lancyfrancis93@gmail.com",
+    "start_time": "07:40",
+    "end_time": "08:30",
+    "date": "2025-09-25",
+    "class": "2",
+    "section": "G",
+    "description": "Assembly of grade 2 G",
+    "duration": 50
   }
 ]
