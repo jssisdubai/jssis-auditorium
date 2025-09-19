@@ -1894,5 +1894,17 @@
     "section": "G",
     "description": "Assembly of grade 2 G",
     "duration": 50
+  },
+  {
+    "name": "Sanjeeta",
+    "title": "KG 1 Concert Practice ",
+    "email": "kg1e@jssisdubai.com",
+    "start_time": "08:00",
+    "end_time": "11:30",
+    "date": "2025-10-23",
+    "class": "",
+    "section": "",
+    "description": "",
+    "duration": 210
   }
 ]
