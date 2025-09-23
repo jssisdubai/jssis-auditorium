@@ -1930,5 +1930,17 @@
     "section": "",
     "description": "",
     "duration": 240
+  },
+  {
+    "name": "Virgina ",
+    "title": "Assembly",
+    "email": "virgina2024@jssis.com",
+    "start_time": "00:00",
+    "end_time": "00:40",
+    "date": "2025-09-24",
+    "class": "1",
+    "section": "F",
+    "description": "Assembly practice",
+    "duration": 40
   }
 ]
