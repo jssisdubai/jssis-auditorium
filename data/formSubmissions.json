@@ -2002,5 +2002,17 @@
     "section": "Middle School",
     "description": "",
     "duration": 30
+  },
+  {
+    "name": "Mamta Nakra",
+    "title": "Concert Practise",
+    "email": "Mamta2024@jssisdubai.com",
+    "start_time": "11:00",
+    "end_time": "01:30",
+    "date": "2025-10-07",
+    "class": "",
+    "section": "Kindergarten ",
+    "description": "Concert Practise for Kindergarten ",
+    "duration": -570
   }
 ]
