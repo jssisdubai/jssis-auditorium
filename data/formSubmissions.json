@@ -2026,5 +2026,17 @@
     "section": "Kindergarten ",
     "description": "Concert Practise for Kindergarten ",
     "duration": -570
+  },
+  {
+    "name": "Virgina ",
+    "title": "Assembly",
+    "email": "virgina2024@jssis.com",
+    "start_time": "12:40",
+    "end_time": "13:20",
+    "date": "2025-10-01",
+    "class": "1",
+    "section": "F",
+    "description": "Assembly practice",
+    "duration": 40
   }
 ]
