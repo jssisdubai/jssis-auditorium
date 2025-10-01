@@ -2146,5 +2146,17 @@
     "section": "",
     "description": "",
     "duration": -540
+  },
+  {
+    "name": "Saniya",
+    "title": "Kg1 concert",
+    "email": "kg1g@jssisdubai.com",
+    "start_time": "11:15",
+    "end_time": "14:00",
+    "date": "2025-10-22",
+    "class": "6",
+    "section": "",
+    "description": "",
+    "duration": 165
   }
 ]
