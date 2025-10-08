@@ -2218,5 +2218,17 @@
     "section": "NA",
     "description": "Inter school competition for kindergarten phase",
     "duration": 285
+  },
+  {
+    "name": "Sabah ",
+    "title": "PbL.Activity screening",
+    "email": "sabah2021@jssisdubai.com",
+    "start_time": "11:15",
+    "end_time": "01:30",
+    "date": "2025-10-27",
+    "class": "1",
+    "section": "",
+    "description": "Grade 1 PBL English activity",
+    "duration": -585
   }
 ]
