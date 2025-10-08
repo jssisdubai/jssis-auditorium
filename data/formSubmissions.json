@@ -2230,5 +2230,17 @@
     "section": "",
     "description": "Grade 1 PBL English activity",
     "duration": -585
+  },
+  {
+    "name": "Sabah ",
+    "title": "Concert practice",
+    "email": "sabah2021@jssisdubai.com",
+    "start_time": "08:00",
+    "end_time": "13:30",
+    "date": "2025-12-01",
+    "class": "1",
+    "section": "Alll",
+    "description": "Concert practice",
+    "duration": 330
   }
 ]
