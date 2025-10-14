@@ -2242,5 +2242,17 @@
     "section": "Alll",
     "description": "Concert practice",
     "duration": 330
+  },
+  {
+    "name": "Amal Sugirdha ",
+    "title": "Science Debate",
+    "email": "amal@jssisdubai.com",
+    "start_time": "12:00",
+    "end_time": "01:30",
+    "date": "2025-11-04",
+    "class": "",
+    "section": "",
+    "description": "",
+    "duration": -630
   }
 ]
